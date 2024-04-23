@@ -187,6 +187,11 @@ body {
       display: block;
       margin-bottom: 10px;
     }
+    nav ul li a{
+        padding: 10px;
+        margin: 10px;
+    
+    }
   
     nav ul li:last-child {
       margin-bottom: 0; /* Remove bottom margin for last item */

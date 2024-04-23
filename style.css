@@ -75,53 +75,53 @@ body {
     background-color: #ddd; 
   }
   nav ul li:hover {
-    transform: scale(1.1); 
+    transform: scale(1.1);
   }
   #day1 img{
     padding: 20px;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
 
  }
  #day2 img{
     padding: 20px;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
 
  }
  #day3 img{
     padding: 20px;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
 
  }
  #day4 img{
     padding: 20px;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
 
  }
  #day5 img{
     padding: 20px;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
 
  }
  #day6 img{
     padding: 20px;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
 
  }
  #day7 img{
     padding: 20px;
-    width: 250px;
+    width: 300px;
     height: 250px;
 
  }
  #day8 img{
     padding: 20px;
-    width: 250px;
+    width: 350px;
     height: 250px;
 
  }

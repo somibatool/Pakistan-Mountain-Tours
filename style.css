@@ -1,0 +1,195 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+  }
+  p{
+    font-size: 20px;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    
+    display: inline-block;
+    margin-right: 20px;
+    transition: transform 0.3s ease; 
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333; 
+    font-weight: bold; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    background-color: #f0f0f0; 
+    transition: background-color 0.3s ease;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .logo img {
+    height: 70px;
+    border-radius: 10px;
+  }
+  #welcome {
+    text-align: center;
+   
+  }
+  #welcome {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  nav ul li a:hover {
+    background-color: #ddd; 
+  }
+  nav ul li:hover {
+    transform: scale(1.1); 
+  }
+  #day1 img{
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+
+ }
+ #day2 img{
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+
+ }
+ #day3 img{
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+
+ }
+ #day4 img{
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+
+ }
+ #day5 img{
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+
+ }
+ #day6 img{
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+
+ }
+ #day7 img{
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+
+ }
+ #day8 img{
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+
+ }
+ @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  @keyframes slideUp {
+    0% { transform: translateY(100px); }
+    100% { transform: translateY(0); }
+  }
+
+  /* Apply animations to elements */
+  #welcome h1, #welcome p {
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+  }
+
+  #welcome h1 {
+    animation-delay: 0.5s; /* Delay for the h1 element */
+  }
+
+  #welcome p {
+    animation-delay: 1s; /* Delay for the p element */
+  }
+
+ @media only screen and (max-width: 600px) {
+    nav ul li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    nav ul li:last-child {
+      margin-bottom: 0; 
+    }
+  }
+
+
+  
+  
+   /* Add your existing CSS styles here */
+
+/* Toggle menu */
+.menu-toggle {
+    display: none; /* Initially hide the menu toggle button */
+  }
+  
+  @media only screen and (max-width: 600px) {
+    nav ul {
+      display: none; /* Hide the navigation menu by default on small screens */
+    }
+  
+    nav ul.show {
+      display: block; /* Display the navigation menu when the show class is applied */
+    }
+  
+    .menu-toggle {
+      display: block; /* Display the menu toggle button on small screens */
+    }
+  
+    nav ul li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    nav ul li:last-child {
+      margin-bottom: 0; /* Remove bottom margin for last item */
+    }
+  }
+  
